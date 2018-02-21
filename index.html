@@ -1,26 +1,39 @@
 <!-- <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'> -->
-
-<!--  Content  -->
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <title>PhantomLand</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <  <title>PhantomLand</title>
   <!-- <meta name="viewport" content="width=device-width, initial-scale" > -->
   <link rel="stylesheet" type="text/css" href="styles.css">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
   <!-- <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"> -->
-  </head>
-  <div class="wrapper">
+</head>
+<body>
+    <div class="wrapper">
         <div id="header">
           <div class="logo">
           <a href="#" >
             <img src="./PhantomLandLogo2018-08.png"  >
             </a>
             </div>
-            <div class="nav-right">
-              <a href="#about">About</a>
-              <a href="#weddings">Weddings</a>
-              <a href="#read-estate">Real Estate</a>
-              <a href="#promotional-content">Promotional Content</a>
-              <a href="#contact">Contact</a>
-            </div>
+            <nav>
+              <div class="toggle">
+                  <i class="fa fa-bars menu" aria-hiddden="true"></i>
+                </div>
+                <div class="nav-right">
+                  <ul>
+                  <a href="#about">About</a>
+                  <a href="#weddings">Weddings</a>
+                  <a href="#read-estate">Real Estate</a>
+                  <a href="#promotional-content">Promotional Content</a>
+                  <a href="#contact">Contact</a>
+                  </ul>
+                </div>
+              
+          </nav>
             
         </div>
         <div id="video">
@@ -56,6 +69,19 @@
     <!-- <h1>PhantomLand Media NavBar <br /></h1> -->
      </div>
  </div> 
+</body>
+<script src="http://code.jquery.com/jquery-3.2.1.js"></script>
+  <script type="text/javascript">
+    $().ready(function(){
+      $('.menu').click(function(){
+        $('ul').toggleClass('active')
+      })
+    })
+  </script>
+</html>
+<!--  Content  -->
+<head>
+  
   
 <!--  Video is muted & autoplays, placed after major DOM elements for performance & has an image fallback  -->
 
