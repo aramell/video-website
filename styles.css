@@ -12,17 +12,6 @@
     /* position: fixed; */
 }
 
-/* .header {
-  position: fixed;
-  bottom: 0;
-  background: rgba(0, 0, 0, 0.5);
-  color: #f1f1f1;
-  width: 100%;
-  padding: 20px;
-} */
-/* #header{
-  width: 300px;
-} */
 .logo{
   width: 400px;
 }
@@ -61,45 +50,7 @@ img{
   padding: 20px;
   font-weight: 900; */
 }
-.wrappers{
-  display: grid;
-  grid-template-rows: 1fr;
-}
-.about{
-  background-color: rgb(226, 213, 213);
-  height: 500px;
-  width: 100%;
-}
-input[type=text] {
-  padding:5px; 
-  border:2px solid #ccc; 
-  -webkit-border-radius: 5px;
-  border-radius: 5px;
-}
 
-form {
-  display: grid;
-  grid-template-columns: 400px 1fr;
-  grid-gap: 16px;
+@media(max-width: 700px) {
+ 
 }
-.weddings{
-  background-color: rgb(226, 213, 213);
-  height: 500px;
-  width: 100%;
-}
-.real-estate{
-  background-color: rgb(226, 213, 213);
-  height: 500px;
-  width: 100%;
-}
-.promotional-content{
-  background-color: rgb(226, 213, 213);
-  height: 500px;
-  width: 100%;
-}
-.contact{
-  background-color: rgb(226, 213, 213);
-  height: 500px;
-  width: 100%;
-}
-
